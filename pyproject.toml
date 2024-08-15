@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rag-evaluate"
+version = "0.1.0"
+description = ""
+authors = ["kehwa <kehwaweng@staff.ipevo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+seaborn = "^0.13.2"
+langchain = "^0.2.14"
+langchain-community = "^0.2.12"
+python-dotenv = "^1.0.1"
+ragas = "^0.1.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
